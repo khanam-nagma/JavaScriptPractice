@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+    /* text-align: center; */
+}
+
+/* #container1{
+    display: flex;
+    justify-content: center;
+} */
+
+ #container2 div{
+    background-color: blue;
+    margin: 1rem 0;
+    height: 100px;
+    width: 200px;
+}
