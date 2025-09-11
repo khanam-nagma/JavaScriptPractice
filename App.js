@@ -1,10 +1,7 @@
-function addElement() {
-  const newDiv = document.createElement("div2");
-  const newContect = document.createTextNode(
-    "The document.createElement() method in JavaScript creates a new HTML element with a specified tag name."
-  );
-  newDiv.appendChild(newContect);
-  const newElem = document.querySelector("#id");
-  document.body.insertBefore(newDiv, newElem);
-}
-addElement();
+
+const myElement = document.querySelector("#Example");
+// How to get the contents with the element
+const contents = myElement.innerHTML;
+console.log(contents); //outPut <h1>Element: innerHTML property!!!</h1>
+// How to set the contents with the element
+const paragraph = myElement.innerHTML = "<p> The innerHTML property of the Element interface gets or sets the HTML or XML markup contained within the element</p>"
